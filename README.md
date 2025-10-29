@@ -17,9 +17,12 @@
 
 ---
 
-### Core Equation
+## Core Equation
 
-<img width="1037" height="163" alt="image" src="https://github.com/user-attachments/assets/8e3919b9-2bd3-48c1-ab69-1b256589f131" />
+$$
+\text{NIV}_t = \frac{u_t \cdot P_t^2}{(X_t + F_t)^{\eta}}
+$$
+
 
 | Symbol | Meaning |
 |:--:|:--|
@@ -82,6 +85,7 @@ pip install -r requirements.txt
 
 # 2. Run NIV Engine
 python src/niv_visualization_v6.py --config src/config.yaml
+
 
 
 
