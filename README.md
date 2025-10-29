@@ -46,21 +46,12 @@ NIV is the computational implementation of **Capital Throughput Economics (CVE)*
 ---
 
 ## 🧩 System Architecture
-src/
-├── fred_fetch.py # Historical FRED data downloader
-├── fred_live.py # Live FRED API fetcher
-├── niv_make_gdpnorm_v3.py # Core NIV normalization logic
-├── niv_visualization_v6.py # Main computational engine + plots
-├── check_data.py # Sanity and consistency checks
-└── config.yaml # Scenario configuration file
 
-docs/
-├── NIV_Computational_Maths.pdf
-└── NIV_Code_Formula_Mapping.pdf
-
-outputs/
-├── visuals/v6/ # Generated plots and CSVs
-└── niv_processed_v6_*.csv # Simulation data
+| Directory | Key Files | Description |
+|------------|------------|-------------|
+| **src/** | `fred_fetch.py`, `fred_live.py`, `niv_visualization_v6.py`, `config.yaml` | Core engine scripts and configuration |
+| **docs/** | `NIV_Computational_Maths.pdf`, `NIV_Code_Formula_Mapping.pdf` | Documentation and methodology papers |
+| **outputs/** | `visuals/v6/`, `niv_processed_v6_*.csv` | Generated datasets and visualizations |
 
 ---
 
@@ -94,3 +85,4 @@ pip install -r requirements.txt
 
 # 2. Run NIV Engine
 python src/niv_visualization_v6.py --config src/config.yaml
+
