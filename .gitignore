@@ -1,0 +1,28 @@
+# Python cache and build
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+
+# Jupyter and VSCode
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Data and outputs
+outputs/
+visuals/
+*.csv
+*.png
+*.pdf
+
+# System files
+.DS_Store
+Thumbs.db

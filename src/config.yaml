@@ -1,0 +1,20 @@
+config:
+  mode: empirical          # empirical | simulated | hybrid
+  steps: 240               # number of time steps (months)
+  scenario: base_case      # name of the current run
+
+params:
+  eta: 1.25                # friction sensitivity
+  alpha1: 0.8              # fiscal sensitivity
+  alpha2: 0.6             # monetary sensitivity
+  alpha3: -0.3             # interest resistance
+  beta1: 0.4               # spread friction
+  beta2: 0.4               # real rate friction
+  beta3: 0.2 
+  lambda: 0.05              # volatility friction
+
+simulation:
+  g_growth: 0.02           # assumed GDP growth per step (if simulated)
+  m2_growth: 0.03          # money supply growth per step
+  rate_change: -0.01       # change in policy rate (negative = easing)
+  output_dir: visuals/v6   # where results are saved
