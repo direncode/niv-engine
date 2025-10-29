@@ -37,7 +37,7 @@ NIV_t = \frac{u_t \cdot P_t^2}{(X_t + F_t)^\eta}
 
 ## Overview
 The **National Impact Velocity (NIV)** framework models the *real-time economic metabolism* of a nation through  
-**capital throughput**, **regeneration**, and **frictional drag**.  
+**idle capacity**, **regeneration**, and **frictional drag**.  
 It replaces static GDP with a *motion-based metric* that captures the intensity, efficiency, and regenerative power of national production.
 
 NIV is the computational implementation of **Capital Throughput Economics (CVE)** — a new paradigm uniting fiscal, monetary, and real-sector data under a single regenerative measure.
@@ -84,6 +84,7 @@ pip install -r requirements.txt
 
 # 2. Run NIV Engine
 python src/niv_visualization_v6.py --config src/config.yaml
+
 
 
 
