@@ -1,7 +1,7 @@
 <div align="center">
 
-# ⚛️ National Impact Velocity (NIV) Engine v6  
-### *Computational Implementation of Capital Throughput Economics (CVE)*  
+# National Impact Velocity (NIV) Engine v6  
+### *Computational Implementation of Capital Velocity Economics (CVE)*  
 
 **Author:** Diren Kumaratilleke  
 **Version:** 6.0 | 2025  
@@ -18,7 +18,7 @@
 
 ---
 
-### 📊 Core Equation
+### Core Equation
 
 \[
 NIV_t = \frac{u_t \cdot P_t^2}{(X_t + F_t)^\eta}
@@ -36,7 +36,7 @@ NIV_t = \frac{u_t \cdot P_t^2}{(X_t + F_t)^\eta}
 
 ---
 
-## 🧠 Overview
+## Overview
 The **National Impact Velocity (NIV)** framework models the *real-time economic metabolism* of a nation through  
 **capital throughput**, **regeneration**, and **frictional drag**.  
 It replaces static GDP with a *motion-based metric* that captures the intensity, efficiency, and regenerative power of national production.
@@ -45,7 +45,7 @@ NIV is the computational implementation of **Capital Throughput Economics (CVE)*
 
 ---
 
-## 🧩 System Architecture
+## System Architecture
 
 | Directory | Key Files | Description |
 |------------|------------|-------------|
@@ -85,4 +85,5 @@ pip install -r requirements.txt
 
 # 2. Run NIV Engine
 python src/niv_visualization_v6.py --config src/config.yaml
+
 
