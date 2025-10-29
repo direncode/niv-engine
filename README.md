@@ -4,7 +4,7 @@
 ### *Computational Implementation of Capital Velocity Economics (CVE)*  
 
 **Author:** Diren Kumaratilleke  
-**Affiliation:** Undergrad at University of North Carolina at Chapel Hill  
+**Affiliation:** Undergrad at University of North Carolina Chapel Hill  
 
 ---
 
@@ -84,6 +84,7 @@ pip install -r requirements.txt
 
 # 2. Run NIV Engine
 python src/niv_visualization_v6.py --config src/config.yaml
+
 
 
 
