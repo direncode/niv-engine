@@ -1,11 +1,10 @@
 <div align="center">
 
-# National Impact Velocity (NIV) Engine v6  
+# National Impact Velocity (NIV) Engine  
 ### *Computational Implementation of Capital Velocity Economics (CVE)*  
 
 **Author:** Diren Kumaratilleke  
-**Version:** 6.0 | 2025  
-**Organization:** Latent Ocean Systems  
+**Affiliation:** Undergrad at University of North Carolina at Chapel Hill  
 
 ---
 
@@ -85,5 +84,6 @@ pip install -r requirements.txt
 
 # 2. Run NIV Engine
 python src/niv_visualization_v6.py --config src/config.yaml
+
 
 
