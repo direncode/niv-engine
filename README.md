@@ -23,14 +23,13 @@ $$
 \text{NIV}_t = \frac{u_t \cdot P_t^2}{(X_t + F_t)^{\eta}}
 $$
 
-
-| Symbol | Meaning |
+| **Symbol** | **Meaning** |
 |:--:|:--|
-| \(u_t\) | Activation intensity (derived from investment, liquidity, and rate shifts) |
-| \(P_t\) | Regeneration share of output (R&D + Education + Capital Formation) |
-| \(X_t\) | Idle capacity (underutilized production share) |
-| \(F_t\) | Friction (financial spread and debt drag) |
-| \(\eta\) | Friction exponent |
+| $$u_t$$ | Activation intensity (derived from investment, liquidity, and rate shifts) |
+| $$P_t$$ | Regeneration share of output (R&D + Education + Capital Formation) |
+| $$X_t$$ | Idle capacity (underutilized production share) |
+| $$F_t$$ | Friction (financial spread and debt drag) |
+| $$\eta$$ | Friction exponent |
 
 </div>
 
@@ -85,6 +84,7 @@ pip install -r requirements.txt
 
 # 2. Run NIV Engine
 python src/niv_visualization_v6.py --config src/config.yaml
+
 
 
 
