@@ -34,7 +34,7 @@ WINDOW_LSI_SHORT = 6
 WINDOW_LSI_LONG = 24
 
 # ---------------- FRED API ----------------
-FRED_KEY = os.getenv("FRED_API_KEY") or "120ef46bc7d037a848ae2fb057644064"
+FRED_KEY = os.getenv("FRED_API_KEY")
 fred = Fred(api_key=FRED_KEY)
 
 OUTDIR = "visuals/v6"
