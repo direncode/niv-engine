@@ -42,18 +42,6 @@ It replaces static GDP with a *motion-based metric* that captures the intensity,
 
 NIV is the computational implementation of **Capital Throughput Economics (CVE)** — a new paradigm uniting fiscal, monetary, and real-sector data under a single regenerative measure.
 
----
-
-## System Architecture
-
-| Directory | Key Files | Description |
-|------------|------------|-------------|
-| **src/** | `fred_fetch.py`, `fred_live.py`, `niv_visualization_v6.py`, `config.yaml` | Core engine scripts and configuration |
-| **docs/** | `NIV_Computational_Maths.pdf`, `NIV_Code_Formula_Mapping.pdf` | Documentation and methodology papers |
-| **outputs/** | `visuals/v6/`, `niv_processed_v6_*.csv` | Generated datasets and visualizations |
-
----
-
 ## ⚙️ Configuration
 
 All parameters are controlled through `src/config.yaml`:
@@ -83,7 +71,8 @@ simulation:
 pip install -r requirements.txt
 
 # 2. Run NIV Engine
-python src/niv_visualization_v6.py --config src/config.yaml
+python (click the .py file of your choice) --config src/config.yaml
+
 
 
 
